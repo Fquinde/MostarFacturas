@@ -1,0 +1,599 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<facturas>
+
+	<factura>
+		<numero>1</numero>
+		<fecha>2023-10-09</fecha>
+		<cif_cliente>123456789A</cif_cliente>
+		<nombre_cliente>John Doe</nombre_cliente>
+		<importe>100.00</importe>
+		<importe_iva>21.00</importe_iva>
+		<moneda>EUR</moneda>
+		<fecha_cobro>2023-11-09</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+
+	<factura>
+		<numero>2</numero>
+		<fecha>2023-10-10</fecha>
+		<cif_cliente>987654321B</cif_cliente>
+		<nombre_cliente>Jane Smith</nombre_cliente>
+		<importe>75.50</importe>
+		<importe_iva>15.90</importe_iva>
+		<moneda>USD</moneda>
+		<fecha_cobro>2023-11-10</fecha_cobro>
+		<estado>pagada</estado>
+	</factura>
+
+	<factura>
+		<numero>3</numero>
+		<fecha>2023-10-11</fecha>
+		<cif_cliente>555555555X</cif_cliente>
+		<nombre_cliente>Roberto González</nombre_cliente>
+		<importe>220.75</importe>
+		<importe_iva>46.36</importe_iva>
+		<moneda>EUR</moneda>
+		<fecha_cobro>2023-11-11</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+
+	<factura>
+		<numero>4</numero>
+		<fecha>2023-10-12</fecha>
+		<cif_cliente>888888888Y</cif_cliente>
+		<nombre_cliente>Maria Rodríguez</nombre_cliente>
+		<importe>150.00</importe>
+		<importe_iva>31.50</importe_iva>
+		<moneda>GBP</moneda>
+		<fecha_cobro>2023-11-12</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+
+	<factura>
+		<numero>5</numero>
+		<fecha>2023-10-13</fecha>
+		<cif_cliente>777777777Z</cif_cliente>
+		<nombre_cliente>Luisa Pérez</nombre_cliente>
+		<importe>300.00</importe>
+		<importe_iva>63.00</importe_iva>
+		<moneda>USD</moneda>
+		<fecha_cobro>2023-11-13</fecha_cobro>
+		<estado>pagada</estado>
+	</factura>
+	<factura>
+		<numero>6</numero>
+		<fecha>2023-10-14</fecha>
+		<cif_cliente>666666666W</cif_cliente>
+		<nombre_cliente>Carlos López</nombre_cliente>
+		<importe>180.00</importe>
+		<importe_iva>37.80</importe_iva>
+		<moneda>EUR</moneda>
+		<fecha_cobro>2023-11-14</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+
+	<factura>
+		<numero>7</numero>
+		<fecha>2023-10-15</fecha>
+		<cif_cliente>999999999V</cif_cliente>
+		<nombre_cliente>Marta Fernández</nombre_cliente>
+		<importe>95.25</importe>
+		<importe_iva>19.99</importe_iva>
+		<moneda>USD</moneda>
+		<fecha_cobro>2023-11-15</fecha_cobro>
+		<estado>pagada</estado>
+	</factura>
+
+	<factura>
+		<numero>8</numero>
+		<fecha>2023-10-16</fecha>
+		<cif_cliente>444444444U</cif_cliente>
+		<nombre_cliente>Javier Pérez</nombre_cliente>
+		<importe>250.50</importe>
+		<importe_iva>52.61</importe_iva>
+		<moneda>EUR</moneda>
+		<fecha_cobro>2023-11-16</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+
+	<factura>
+		<numero>9</numero>
+		<fecha>2023-10-17</fecha>
+		<cif_cliente>333333333T</cif_cliente>
+		<nombre_cliente>Ana Sánchez</nombre_cliente>
+		<importe>120.00</importe>
+		<importe_iva>25.20</importe_iva>
+		<moneda>GBP</moneda>
+		<fecha_cobro>2023-11-17</fecha_cobro>
+		<estado>pagada</estado>
+	</factura>
+
+	<factura>
+		<numero>10</numero>
+		<fecha>2023-10-18</fecha>
+		<cif_cliente>222222222S</cif_cliente>
+		<nombre_cliente>Luis González</nombre_cliente>
+		<importe>180.00</importe>
+		<importe_iva>37.80</importe_iva>
+		<moneda>USD</moneda>
+		<fecha_cobro>2023-11-18</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+	<factura>
+		<numero>11</numero>
+		<fecha>2023-10-19</fecha>
+		<cif_cliente>111111111A</cif_cliente>
+		<nombre_cliente>Elena Pérez</nombre_cliente>
+		<importe>75.00</importe>
+		<importe_iva>15.75</importe_iva>
+		<moneda>EUR</moneda>
+		<fecha_cobro>2023-11-19</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+
+	<factura>
+		<numero>12</numero>
+		<fecha>2023-10-20</fecha>
+		<cif_cliente>222222222B</cif_cliente>
+		<nombre_cliente>José Rodríguez</nombre_cliente>
+		<importe>200.00</importe>
+		<importe_iva>42.00</importe_iva>
+		<moneda>USD</moneda>
+		<fecha_cobro>2023-11-20</fecha_cobro>
+		<estado>pagada</estado>
+	</factura>
+
+	<factura>
+		<numero>13</numero>
+		<fecha>2023-10-21</fecha>
+		<cif_cliente>333333333C</cif_cliente>
+		<nombre_cliente>Maria López</nombre_cliente>
+		<importe>150.50</importe>
+		<importe_iva>31.62</importe_iva>
+		<moneda>EUR</moneda>
+		<fecha_cobro>2023-11-21</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+
+	<factura>
+		<numero>14</numero>
+		<fecha>2023-10-22</fecha>
+		<cif_cliente>444444444D</cif_cliente>
+		<nombre_cliente>Carlos Pérez</nombre_cliente>
+		<importe>90.00</importe>
+		<importe_iva>18.90</importe_iva>
+		<moneda>GBP</moneda>
+		<fecha_cobro>2023-11-22</fecha_cobro>
+		<estado>pagada</estado>
+	</factura>
+
+	<factura>
+		<numero>15</numero>
+		<fecha>2023-10-23</fecha>
+		<cif_cliente>555555555E</cif_cliente>
+		<nombre_cliente>Laura González</nombre_cliente>
+		<importe>120.00</importe>
+		<importe_iva>25.20</importe_iva>
+		<moneda>USD</moneda>
+		<fecha_cobro>2023-11-23</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+
+	<factura>
+		<numero>16</numero>
+		<fecha>2023-10-24</fecha>
+		<cif_cliente>666666666F</cif_cliente>
+		<nombre_cliente>Javier García</nombre_cliente>
+		<importe>300.00</importe>
+		<importe_iva>63.00</importe_iva>
+		<moneda>EUR</moneda>
+		<fecha_cobro>2023-11-24</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+
+	<factura>
+		<numero>17</numero>
+		<fecha>2023-10-25</fecha>
+		<cif_cliente>777777777G</cif_cliente>
+		<nombre_cliente>Marta Sánchez</nombre_cliente>
+		<importe>80.00</importe>
+		<importe_iva>16.80</importe_iva>
+		<moneda>USD</moneda>
+		<fecha_cobro>2023-11-25</fecha_cobro>
+		<estado>pagada</estado>
+	</factura>
+
+	<factura>
+		<numero>18</numero>
+		<fecha>2023-10-26</fecha>
+		<cif_cliente>888888888H</cif_cliente>
+		<nombre_cliente>Luis Rodríguez</nombre_cliente>
+		<importe>200.00</importe>
+		<importe_iva>42.00</importe_iva>
+		<moneda>EUR</moneda>
+		<fecha_cobro>2023-11-26</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+
+	<factura>
+		<numero>19</numero>
+		<fecha>2023-10-27</fecha>
+		<cif_cliente>999999999I</cif_cliente>
+		<nombre_cliente>María López</nombre_cliente>
+		<importe>150.50</importe>
+		<importe_iva>31.62</importe_iva>
+		<moneda>GBP</moneda>
+		<fecha_cobro>2023-11-27</fecha_cobro>
+		<estado>pagada</estado>
+	</factura>
+
+	<factura>
+		<numero>20</numero>
+		<fecha>2023-10-28</fecha>
+		<cif_cliente>101010101J</cif_cliente>
+		<nombre_cliente>Pablo Martínez</nombre_cliente>
+		<importe>90.00</importe>
+		<importe_iva>18.90</importe_iva>
+		<moneda>USD</moneda>
+		<fecha_cobro>2023-11-28</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+	<factura>
+		<numero>21</numero>
+		<fecha>2023-10-29</fecha>
+		<cif_cliente>111111111K</cif_cliente>
+		<nombre_cliente>Andrea Rodríguez</nombre_cliente>
+		<importe>125.00</importe>
+		<importe_iva>26.25</importe_iva>
+		<moneda>EUR</moneda>
+		<fecha_cobro>2023-11-29</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+
+	<factura>
+		<numero>22</numero>
+		<fecha>2023-10-30</fecha>
+		<cif_cliente>222222222L</cif_cliente>
+		<nombre_cliente>Luisa González</nombre_cliente>
+		<importe>180.00</importe>
+		<importe_iva>37.80</importe_iva>
+		<moneda>USD</moneda>
+		<fecha_cobro>2023-11-30</fecha_cobro>
+		<estado>pagada</estado>
+	</factura>
+
+	<factura>
+		<numero>23</numero>
+		<fecha>2023-10-31</fecha>
+		<cif_cliente>333333333M</cif_cliente>
+		<nombre_cliente>Carlos Pérez</nombre_cliente>
+		<importe>75.50</importe>
+		<importe_iva>15.87</importe_iva>
+		<moneda>EUR</moneda>
+		<fecha_cobro>2023-11-31</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+
+	<factura>
+		<numero>24</numero>
+		<fecha>2023-11-01</fecha>
+		<cif_cliente>444444444N</cif_cliente>
+		<nombre_cliente>Marta López</nombre_cliente>
+		<importe>200.00</importe>
+		<importe_iva>42.00</importe_iva>
+		<moneda>GBP</moneda>
+		<fecha_cobro>2023-12-01</fecha_cobro>
+		<estado>pagada</estado>
+	</factura>
+
+	<factura>
+		<numero>25</numero>
+		<fecha>2023-11-02</fecha>
+		<cif_cliente>555555555O</cif_cliente>
+		<nombre_cliente>Javier Rodríguez</nombre_cliente>
+		<importe>120.00</importe>
+		<importe_iva>25.20</importe_iva>
+		<moneda>USD</moneda>
+		<fecha_cobro>2023-12-02</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+
+	<factura>
+		<numero>26</numero>
+		<fecha>2023-11-03</fecha>
+		<cif_cliente>666666666P</cif_cliente>
+		<nombre_cliente>Laura Pérez</nombre_cliente>
+		<importe>90.00</importe>
+		<importe_iva>18.90</importe_iva>
+		<moneda>EUR</moneda>
+		<fecha_cobro>2023-12-03</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+
+	<factura>
+		<numero>27</numero>
+		<fecha>2023-11-04</fecha>
+		<cif_cliente>777777777Q</cif_cliente>
+		<nombre_cliente>Pablo Sánchez</nombre_cliente>
+		<importe>250.50</importe>
+		<importe_iva>52.61</importe_iva>
+		<moneda>USD</moneda>
+		<fecha_cobro>2023-12-04</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+
+	<factura>
+		<numero>28</numero>
+		<fecha>2023-11-05</fecha>
+		<cif_cliente>888888888R</cif_cliente>
+		<nombre_cliente>Elena González</nombre_cliente>
+		<importe>300.00</importe>
+		<importe_iva>63.00</importe_iva>
+		<moneda>EUR</moneda>
+		<fecha_cobro>2023-12-05</fecha_cobro>
+		<estado>pagada</estado>
+	</factura>
+
+	<factura>
+		<numero>29</numero>
+		<fecha>2023-11-06</fecha>
+		<cif_cliente>999999999S</cif_cliente>
+		<nombre_cliente>José Martínez</nombre_cliente>
+		<importe>150.50</importe>
+		<importe_iva>31.62</importe_iva>
+		<moneda>GBP</moneda>
+		<fecha_cobro>2023-12-06</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+
+	<factura>
+		<numero>30</numero>
+		<fecha>2023-11-07</fecha>
+		<cif_cliente>101010101T</cif_cliente>
+		<nombre_cliente>Luis García</nombre_cliente>
+		<importe>75.00</importe>
+		<importe_iva>15.75</importe_iva>
+		<moneda>USD</moneda>
+		<fecha_cobro>2023-12-07</fecha_cobro>
+		<estado>pagada</estado>
+	</factura>
+	<factura>
+		<numero>31</numero>
+		<fecha>2023-11-08</fecha>
+		<cif_cliente>111111111U</cif_cliente>
+		<nombre_cliente>Andrés González</nombre_cliente>
+		<importe>180.00</importe>
+		<importe_iva>37.80</importe_iva>
+		<moneda>EUR</moneda>
+		<fecha_cobro>2023-12-08</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+
+	<factura>
+		<numero>32</numero>
+		<fecha>2023-11-09</fecha>
+		<cif_cliente>222222222V</cif_cliente>
+		<nombre_cliente>Laura Rodríguez</nombre_cliente>
+		<importe>125.00</importe>
+		<importe_iva>26.25</importe_iva>
+		<moneda>USD</moneda>
+		<fecha_cobro>2023-12-09</fecha_cobro>
+		<estado>pagada</estado>
+	</factura>
+
+	<factura>
+		<numero>33</numero>
+		<fecha>2023-11-10</fecha>
+		<cif_cliente>333333333W</cif_cliente>
+		<nombre_cliente>Carlos Sánchez</nombre_cliente>
+		<importe>150.50</importe>
+		<importe_iva>31.62</importe_iva>
+		<moneda>EUR</moneda>
+		<fecha_cobro>2023-12-10</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+
+	<factura>
+		<numero>34</numero>
+		<fecha>2023-11-11</fecha>
+		<cif_cliente>444444444X</cif_cliente>
+		<nombre_cliente>Marta González</nombre_cliente>
+		<importe>90.00</importe>
+		<importe_iva>18.90</importe_iva>
+		<moneda>GBP</moneda>
+		<fecha_cobro>2023-12-11</fecha_cobro>
+		<estado>pagada</estado>
+	</factura>
+
+	<factura>
+		<numero>35</numero>
+		<fecha>2023-11-12</fecha>
+		<cif_cliente>555555555Y</cif_cliente>
+		<nombre_cliente>José Pérez</nombre_cliente>
+		<importe>120.00</importe>
+		<importe_iva>25.20</importe_iva>
+		<moneda>USD</moneda>
+		<fecha_cobro>2023-12-12</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+
+	<factura>
+		<numero>36</numero>
+		<fecha>2023-11-13</fecha>
+		<cif_cliente>666666666Z</cif_cliente>
+		<nombre_cliente>Elena Sánchez</nombre_cliente>
+		<importe>250.50</importe>
+		<importe_iva>52.61</importe_iva>
+		<moneda>EUR</moneda>
+		<fecha_cobro>2023-12-13</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+
+	<factura>
+		<numero>37</numero>
+		<fecha>2023-11-14</fecha>
+		<cif_cliente>777777777A</cif_cliente>
+		<nombre_cliente>Pablo Rodríguez</nombre_cliente>
+		<importe>80.00</importe>
+		<importe_iva>16.80</importe_iva>
+		<moneda>USD</moneda>
+		<fecha_cobro>2023-12-14</fecha_cobro>
+		<estado>pagada</estado>
+	</factura>
+
+	<factura>
+		<numero>38</numero>
+		<fecha>2023-11-15</fecha>
+		<cif_cliente>888888888B</cif_cliente>
+		<nombre_cliente>Luisa Pérez</nombre_cliente>
+		<importe>300.00</importe>
+		<importe_iva>63.00</importe_iva>
+		<moneda>EUR</moneda>
+		<fecha_cobro>2023-12-15</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+
+	<factura>
+		<numero>39</numero>
+		<fecha>2023-11-16</fecha>
+		<cif_cliente>999999999C</cif_cliente>
+		<nombre_cliente>Roberto López</nombre_cliente>
+		<importe>120.00</importe>
+		<importe_iva>25.20</importe_iva>
+		<moneda>GBP</moneda>
+		<fecha_cobro>2023-12-16</fecha_cobro>
+		<estado>pagada</estado>
+	</factura>
+
+	<factura>
+		<numero>40</numero>
+		<fecha>2023-11-17</fecha>
+		<cif_cliente>101010101D</cif_cliente>
+		<nombre_cliente>María Rodríguez</nombre_cliente>
+		<importe>180.00</importe>
+		<importe_iva>37.80</importe_iva>
+		<moneda>USD</moneda>
+		<fecha_cobro>2023-12-17</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+	<factura>
+		<numero>41</numero>
+		<fecha>2023-11-27</fecha>
+		<cif_cliente>111111111N</cif_cliente>
+		<nombre_cliente>José Sánchez</nombre_cliente>
+		<importe>180.00</importe>
+		<importe_iva>37.80</importe_iva>
+		<moneda>EUR</moneda>
+		<fecha_cobro>2023-12-27</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+
+	<factura>
+		<numero>42</numero>
+		<fecha>2023-11-28</fecha>
+		<cif_cliente>222222222O</cif_cliente>
+		<nombre_cliente>Ana Rodríguez</nombre_cliente>
+		<importe>125.00</importe>
+		<importe_iva>26.25</importe_iva>
+		<moneda>USD</moneda>
+		<fecha_cobro>2023-12-28</fecha_cobro>
+		<estado>pagada</estado>
+	</factura>
+
+	<factura>
+		<numero>43</numero>
+		<fecha>2023-11-29</fecha>
+		<cif_cliente>333333333P</cif_cliente>
+		<nombre_cliente>Carlos López</nombre_cliente>
+		<importe>150.50</importe>
+		<importe_iva>31.62</importe_iva>
+		<moneda>EUR</moneda>
+		<fecha_cobro>2023-12-29</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+
+	<factura>
+		<numero>44</numero>
+		<fecha>2023-11-30</fecha>
+		<cif_cliente>444444444Q</cif_cliente>
+		<nombre_cliente>Luis González</nombre_cliente>
+		<importe>90.00</importe>
+		<importe_iva>18.90</importe_iva>
+		<moneda>GBP</moneda>
+		<fecha_cobro>2023-12-30</fecha_cobro>
+		<estado>pagada</estado>
+	</factura>
+
+	<factura>
+		<numero>45</numero>
+		<fecha>2023-12-01</fecha>
+		<cif_cliente>555555555R</cif_cliente>
+		<nombre_cliente>Marta López</nombre_cliente>
+		<importe>120.00</importe>
+		<importe_iva>25.20</importe_iva>
+		<moneda>USD</moneda>
+		<fecha_cobro>2023-12-31</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+
+	<factura>
+		<numero>46</numero>
+		<fecha>2023-12-02</fecha>
+		<cif_cliente>666666666S</cif_cliente>
+		<nombre_cliente>Javier Pérez</nombre_cliente>
+		<importe>250.50</importe>
+		<importe_iva>52.61</importe_iva>
+		<moneda>EUR</moneda>
+		<fecha_cobro>2024-01-01</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+
+	<factura>
+		<numero>47</numero>
+		<fecha>2023-12-03</fecha>
+		<cif_cliente>777777777T</cif_cliente>
+		<nombre_cliente>Laura Sánchez</nombre_cliente>
+		<importe>80.00</importe>
+		<importe_iva>16.80</importe_iva>
+		<moneda>USD</moneda>
+		<fecha_cobro>2024-01-02</fecha_cobro>
+		<estado>pagada</estado>
+	</factura>
+
+	<factura>
+		<numero>48</numero>
+		<fecha>2023-12-04</fecha>
+		<cif_cliente>888888888U</cif_cliente>
+		<nombre_cliente>José González</nombre_cliente>
+		<importe>200.00</importe>
+		<importe_iva>42.00</importe_iva>
+		<moneda>EUR</moneda>
+		<fecha_cobro>2024-01-03</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+
+	<factura>
+		<numero>49</numero>
+		<fecha>2023-12-05</fecha>
+		<cif_cliente>999999999V</cif_cliente>
+		<nombre_cliente>Marta Pérez</nombre_cliente>
+		<importe>150.50</importe>
+		<importe_iva>31.62</importe_iva>
+		<moneda>GBP</moneda>
+		<fecha_cobro>2024-01-04</fecha_cobro>
+		<estado>pagada</estado>
+	</factura>
+
+	<factura>
+		<numero>50</numero>
+		<fecha>2023-12-06</fecha>
+		<cif_cliente>101010101W</cif_cliente>
+		<nombre_cliente>Carlos González</nombre_cliente>
+		<importe>75.00</importe>
+		<importe_iva>15.75</importe_iva>
+		<moneda>USD</moneda>
+		<fecha_cobro>2024-01-05</fecha_cobro>
+		<estado>pendiente</estado>
+	</factura>
+
+</facturas>
